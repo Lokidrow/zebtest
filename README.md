@@ -17,6 +17,7 @@ cp .env.example .env
 
 php artisan key:generate
 composer install
+php artisan migrate
 
 Настройте веб сервер на папку public проекта.
 
